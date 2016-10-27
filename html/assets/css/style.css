@@ -652,9 +652,7 @@ span.dropdown-toggle {
   text-transform: capitalize;
 }
 
-.social-nav {
-  color: white;
-}
+
 
 /*
 Intro setions style
@@ -1633,4 +1631,10 @@ Template responsive style. Must be bottom into css file.
 
 .buttons-elements a {
   margin-bottom: 10px;
+}
+
+
+.social-nav-icon {
+  color: #2a9fd6;
+  font-size: 20px;
 }
