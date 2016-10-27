@@ -652,6 +652,10 @@ span.dropdown-toggle {
   text-transform: capitalize;
 }
 
+.social-nav {
+  color: white;
+}
+
 /*
 Intro setions style
 */
