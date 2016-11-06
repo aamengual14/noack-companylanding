@@ -15,9 +15,13 @@ $(document).ready(function () {
         var scroll = $(window).scrollTop();
         if (scroll > 0) {
             $('.navbar-transparent').addClass('shrink');
+            $('#custom-navbar-brand').css('color', 'white');
+            $('.navbar-inverse.navbar-transparent .navbar-nav > li >').css('color', 'white');
         }
         if (scroll <= 0) {
             $('.navbar-transparent').removeClass('shrink');
+            $('#custom-navbar-brand').css('color', '#393f4d');
+            $('.navbar-inverse.navbar-transparent .navbar-nav > li >').css('color', '#393f4d');
         }
     });
 
@@ -52,7 +56,7 @@ $(document).ready(function () {
         delay: 10,
         time: 4000
     });
-    
+
     //parallax stellar
     $(document).ready(function () {
     $(window).stellar({

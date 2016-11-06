@@ -188,6 +188,7 @@ h6 {
 
 .resolution {
   line-height: 250%;
+  padding-top: 5%;
 }
 
 strong, b {
@@ -576,15 +577,14 @@ header styles
 */
 .navbar-nav > li > a {
   font-family: "Roboto", sans-serif;
-  font-weight: 500;
+  font-weight: bolder;
   text-transform: uppercase;
   font-size: 13px;
   /*letter-spacing: 0px;*/
   letter-spacing: 1.5px;
-  color: #fff;
-  opacity: 0.8;
-  text-shadow: -1px 0 #393f4d, 0 1px #393f4d, 1px 0 #393f4d, 0 -1px #393f4d;
-}
+/*  opacity: 0.8;
+*//*  text-shadow: -1px 0 #393f4d, 0 1px #393f4d, 1px 0 #393f4d, 0 -1px #393f4d;
+*/}
 
 #facebook {
   color: #fff;
@@ -593,6 +593,11 @@ header styles
 #twitter {
   color: #fff;
 }
+
+.font-change {
+  color: class;
+}
+
 .navbar-nav > li > a:hover {
   opacity: 1;
 }
@@ -640,7 +645,11 @@ span.dropdown-toggle {
 }
 
 .navbar-inverse .navbar-brand {
-  color: #fff;
+  color: #393f4d;
+}
+
+#custom-navbar-brand {
+  color: #393f4d;
 }
 
 .navbar-inverse.navbar-transparent .navbar-nav > .active > a, .navbar-inverse.navbar-transparent .navbar-nav > .active > a:focus, .navbar-inverse.navbar-transparent .navbar-nav > .active > a:hover, .navbar-inverse.navbar-transparent .navbar-nav > li > a:hover, span.dropdown-toggle:hover {
@@ -666,8 +675,6 @@ span.dropdown-toggle {
   padding: 9px 20px;
   text-transform: capitalize;
 }
-
-
 
 /*
 Intro setions style
@@ -805,9 +812,10 @@ Call to actions
 }
 
 .video-cta {
-  background: url("../images/bg1.jpg") no-repeat;
-  background-size: cover;
+/*  background: url("../images/bg1.jpg") no-repeat;
+*/  background-size: cover;
   background-attachment: fixed;
+  background-color: #393f4d;
 }
 .video-cta h2 {
   color: #fff;
@@ -1656,4 +1664,8 @@ Template responsive style. Must be bottom into css file.
 .social-nav-icon {
   color: #2a9fd6;
   font-size: 20px;
+}
+
+hr {
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
 }
