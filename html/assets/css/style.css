@@ -315,6 +315,11 @@ strong, b {
   font-weight: 500;
 }
 
+.container {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
 /**********back to top*************/
 .scrollToTop {
   text-align: center;
@@ -586,13 +591,13 @@ header styles
 *//*  text-shadow: -1px 0 #393f4d, 0 1px #393f4d, 1px 0 #393f4d, 0 -1px #393f4d;
 */}
 
-#facebook {
-  color: #fff;
+/*#facebook {
+  color: #00aced;
 }
 
 #twitter {
-  color: #fff;
-}
+  color: #00aced;
+}*/
 
 .font-change {
   color: class;
@@ -638,11 +643,11 @@ span.dropdown-toggle {
 .navbar-brand {
   font-family: "Raleway", sans-serif;
   font-size: 24px;
-  text-transform: lowercase;
-  font-style: normal;
-  font-weight: 700;
-  text-shadow: -1px 0 #393f4d, 0 1px #393f4d, 1px 0 #393f4d, 0 -1px #393f4d;
-}
+/*  text-transform: lowercase;
+*/  font-style: normal;
+  font-weight: 500;
+/*  text-shadow: -1px 0 #393f4d, 0 1px #393f4d, 1px 0 #393f4d, 0 -1px #393f4d;
+*/}
 
 .navbar-inverse .navbar-brand {
   color: #393f4d;
@@ -692,8 +697,13 @@ Intro setions style
 }
 .header-full-screen p {
   color: #393f4d;
-  opacity: 0.9;
+/*  opacity: 0.9;
+*/}
+
+#header-background-text > p {
+  font-size: 23px;
 }
+
 .header-full-screen a.video-link {
   color: #fff;
 }
@@ -701,7 +711,11 @@ Intro setions style
 #header-background-text {
   width: 100%;
   margin-left: 0px;
-  padding-bottom: 250px;
+  padding-bottom: 75px;
+}
+
+#header-background-text h1 {
+  font-size: 39.5px;
 }
 
 .buttons a {
@@ -1022,7 +1036,7 @@ Testimonials
 #learn-more {
   position: absolute;
   top: 300px;
-  right: 500px;
+  right: 515px;
 }
 
 /*
@@ -1668,4 +1682,15 @@ Template responsive style. Must be bottom into css file.
 
 hr {
   border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.about-col {
+  width: 50%;
+}
+
+#about-image-div {
+  float: right;
+}
+
+.about-images {
 }

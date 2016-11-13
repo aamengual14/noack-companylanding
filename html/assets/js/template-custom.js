@@ -17,11 +17,17 @@ $(document).ready(function () {
             $('.navbar-transparent').addClass('shrink');
             $('#custom-navbar-brand').css('color', 'white');
             $('.navbar-inverse.navbar-transparent .navbar-nav > li >').css('color', 'white');
+            $('#facebook').css('color', 'white');
+            $('#twitter').css('color', 'white');
         }
         if (scroll <= 0) {
             $('.navbar-transparent').removeClass('shrink');
             $('#custom-navbar-brand').css('color', '#393f4d');
             $('.navbar-inverse.navbar-transparent .navbar-nav > li >').css('color', '#393f4d');
+            $('#facebook').css('color', '#393f4d');
+            $('#twitter').css('color', '#393f4d');
+
+            // $('#home-tab').css('color', '#C0B283');
         }
     });
 
