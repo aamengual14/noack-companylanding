@@ -603,6 +603,14 @@ header styles
   color: class;
 }
 
+#custom-navbar-image {
+  height: 300%;
+}
+
+#custom-navbar-brand-image {
+  margin-top: 0px;
+}
+
 .navbar-nav > li > a:hover {
   opacity: 1;
 }
