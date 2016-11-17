@@ -603,8 +603,12 @@ header styles
   color: class;
 }
 
+a.small-logo {
+  padding-top: 0px;
+}
+
 #custom-navbar-image {
-  height: 300%;
+  height: 150%;
 }
 
 #custom-navbar-brand-image {
@@ -651,8 +655,8 @@ span.dropdown-toggle {
 .navbar-brand {
   font-family: "Raleway", sans-serif;
   font-size: 24px;
-/*  text-transform: lowercase;
-*/  font-style: normal;
+/*  text-transform: lowercase; */
+  font-style: normal;
   font-weight: 500;
 /*  text-shadow: -1px 0 #393f4d, 0 1px #393f4d, 1px 0 #393f4d, 0 -1px #393f4d;
 */}
@@ -1045,6 +1049,10 @@ Testimonials
   position: absolute;
   top: 300px;
   right: 515px;
+}
+
+div.who-we-are {
+  padding-top: 10%;
 }
 
 /*
