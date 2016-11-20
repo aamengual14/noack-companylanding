@@ -1052,7 +1052,7 @@ Testimonials
 }
 
 div.who-we-are {
-  padding-top: 10%;
+  padding-top: 7%;
 }
 
 /*
@@ -1706,6 +1706,8 @@ hr {
 
 #about-image-div {
   float: right;
+  margin-top: 4%;
+  margin-bottom: 4%;
 }
 
 .about-images {
