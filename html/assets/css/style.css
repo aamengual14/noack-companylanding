@@ -591,13 +591,17 @@ header styles
 *//*  text-shadow: -1px 0 #393f4d, 0 1px #393f4d, 1px 0 #393f4d, 0 -1px #393f4d;
 */}
 
-/*#facebook {
-  color: #00aced;
+#facebook {
+  color: #393f4d;
 }
 
 #twitter {
-  color: #00aced;
-}*/
+  color: #393f4d;
+}
+
+#home-tab {
+  color: #393f4d;
+}
 
 .font-change {
   color: class;
@@ -665,8 +669,12 @@ span.dropdown-toggle {
   color: #393f4d;
 }
 
-#custom-navbar-brand {
+#test {
   color: #393f4d;
+}
+
+#custom-navbar-brand {
+  /*color: #393f4d;*/
 }
 
 .navbar-inverse.navbar-transparent .navbar-nav > .active > a, .navbar-inverse.navbar-transparent .navbar-nav > .active > a:focus, .navbar-inverse.navbar-transparent .navbar-nav > .active > a:hover, .navbar-inverse.navbar-transparent .navbar-nav > li > a:hover, span.dropdown-toggle:hover {

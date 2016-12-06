@@ -10,6 +10,9 @@ $(document).ready(function () {
         });
     });
 
+// $('body,html').stop(true,true).animate({scrollTop: stop}, delay);
+
+
     //animated scroll menu
     $(window).scroll(function () {
         var scroll = $(window).scrollTop();
@@ -111,4 +114,3 @@ $(document).ready(function () {
         return false;
     });
 });
-
