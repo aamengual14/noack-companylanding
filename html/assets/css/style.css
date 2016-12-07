@@ -592,15 +592,18 @@ header styles
 */}
 
 #facebook {
-  color: #393f4d;
+  /*color: #393f4d;*/
+  color: black;
 }
 
 #twitter {
-  color: #393f4d;
+  /*color: #393f4d;*/
+  color: black;
 }
 
 #home-tab {
-  color: #393f4d;
+  /*color: #393f4d;*/
+  color: black;
 }
 
 .font-change {
@@ -670,7 +673,8 @@ span.dropdown-toggle {
 }
 
 #test {
-  color: #393f4d;
+  /*color: #393f4d;*/
+  color: black;
 }
 
 #custom-navbar-brand {
@@ -722,6 +726,11 @@ Intro setions style
 
 #header-background-text > p {
   font-size: 23px;
+  color: black;
+}
+
+#header-slides-1, #header-slides-2, #header-slides-3 {
+  color: black;
 }
 
 .header-full-screen a.video-link {
@@ -736,6 +745,7 @@ Intro setions style
 
 #header-background-text h1 {
   font-size: 39.5px;
+  color: black;
 }
 
 .buttons a {
@@ -743,7 +753,7 @@ Intro setions style
 }
 
 .background-1 {
-  background: url("../images/taxphoto1.jpg") no-repeat center center;
+  background: url("../images/bulldog-computer.jpg") no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
   background-position: 0 0;

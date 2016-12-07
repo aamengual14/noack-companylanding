@@ -25,12 +25,13 @@ $(document).ready(function () {
         }
         if (scroll <= 0) {
             $('.navbar-transparent').removeClass('shrink');
-            $('#custom-navbar-brand').css('color', '#393f4d');
-            $('.navbar-inverse.navbar-transparent .navbar-nav > li >').css('color', '#393f4d');
-            $('#facebook').css('color', '#393f4d');
-            $('#twitter').css('color', '#393f4d');
+            $('#custom-navbar-brand').css('color', 'black');
+            $('.navbar-inverse.navbar-transparent .navbar-nav > li >').css('color', 'black');
+            $('#facebook').css('color', 'black');
+            $('#twitter').css('color', 'black');
 
             // $('#home-tab').css('color', '#C0B283');
+            // color used prior to switching everything to black - #393f4d
         }
     });
 
