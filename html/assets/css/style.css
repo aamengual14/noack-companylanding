@@ -726,12 +726,12 @@ Intro setions style
 
 #header-background-text > p {
   font-size: 23px;
-  color: black;
+  /*color: black;*/
 }
 
-#header-slides-1, #header-slides-2, #header-slides-3 {
+/*#header-slides-1, #header-slides-2, #header-slides-3 {
   color: black;
-}
+}*/
 
 .header-full-screen a.video-link {
   color: #fff;
@@ -745,7 +745,7 @@ Intro setions style
 
 #header-background-text h1 {
   font-size: 39.5px;
-  color: black;
+  /*color: black;*/
 }
 
 .buttons a {
@@ -753,11 +753,11 @@ Intro setions style
 }
 
 .background-1 {
-  background: url("../images/bulldog-1768006_1920 40pct.jpg") no-repeat center center;
+  background: url("../images/bulldog-40pct.jpg") no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
   background-position: 0 0;
-  opacity: 0.6;
+  /*opacity: 0.6;*/
 }
 
 
