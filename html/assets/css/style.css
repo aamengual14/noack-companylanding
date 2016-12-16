@@ -1065,9 +1065,7 @@ Testimonials
 }
 
 #learn-more {
-  position: absolute;
-  top: 300px;
-  right: 515px;
+  margin-top: 30px;
 }
 
 div.who-we-are {
