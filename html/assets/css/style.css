@@ -315,10 +315,10 @@ strong, b {
   font-weight: 500;
 }
 
-.container {
+/*.container {
   padding-right: 0px;
   padding-left: 0px;
-}
+}*/
 
 /**********back to top*************/
 .scrollToTop {
@@ -1756,4 +1756,3 @@ hr {
         padding-bottom: 10px;
     }
 }
-
