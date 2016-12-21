@@ -1693,6 +1693,11 @@ Template responsive style. Must be bottom into css file.
   .hero-contact .buttons .btn-default {
     margin-left: 3px;
   }
+  #about-who-we-are, #about-image-div {
+    display: block;
+    float: none;
+    width: 100%;
+  }
 }
 /***intro box styles**/
 .demo-box {
@@ -1716,6 +1721,12 @@ Template responsive style. Must be bottom into css file.
 hr {
   border-top: 1px solid rgba(0, 0, 0, 0.3);
 }
+
+/*#about {
+  display: block;
+}*/
+
+
 
 .about-col {
   width: 50%;
