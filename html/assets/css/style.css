@@ -591,19 +591,28 @@ header styles
 *//*  text-shadow: -1px 0 #393f4d, 0 1px #393f4d, 1px 0 #393f4d, 0 -1px #393f4d;
 */}
 
+#nav-link-1 {
+  color: #393f4d;
+}
+#nav-link-2 {
+  color: #393f4d;
+}
+#nav-link-3{
+  color: #393f4d;
+}
+#nav-link-4 {
+  color: #393f4d;
+}
 #facebook {
-  /*color: #393f4d;*/
-  color: black;
+  color: #393f4d;
 }
 
 #twitter {
-  /*color: #393f4d;*/
-  color: black;
+  color: #393f4d;
 }
 
 #home-tab {
-  /*color: #393f4d;*/
-  color: black;
+  color: #393f4d;
 }
 
 .font-change {
