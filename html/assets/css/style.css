@@ -1755,4 +1755,14 @@ hr {
         padding-top: 10px;
         padding-bottom: 10px;
     }
+    div.who-we-are {
+      padding-top: 0%;
+    }
+    .who-we-are-custom {
+      text-align: center;
+      padding-right: 10%;
+    }
+    #about-image-div {
+      margin-top: 8%;
+    }
 }
