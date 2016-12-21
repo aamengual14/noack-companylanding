@@ -746,6 +746,7 @@ Intro setions style
 #header-background-text h1 {
   font-size: 39.5px;
   /*color: black;*/
+  /*line-height: 1.5px;*/
 }
 
 .buttons a {
@@ -756,7 +757,7 @@ Intro setions style
   background: url("../images/bulldog-40pct.jpg") no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
-  background-position: 0 0;
+  background-position: 97% 0;
   /*opacity: 0.6;*/
 }
 
@@ -1626,6 +1627,10 @@ Template responsive style. Must be bottom into css file.
   .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
     border-color: #101010;
     background-color: #222;
+  }
+  #header-background-text h1 {
+    font-size: 34px;
+    line-height: normal;
   }
 
   .hero-padded {
